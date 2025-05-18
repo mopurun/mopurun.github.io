@@ -1,0 +1,88 @@
+div.top_animed{
+position: relative;
+width:100%;
+height:85px;
+overflow-x: hidden;
+
+}
+
+body{
+	margin:0;
+}
+
+img.hmimg{
+position: absolute;
+bottom: 0%;
+z-index:3;
+}
+
+
+p.topanibgc {
+	background-color: #aeff00;
+	width: 100%;
+	height: 100%;
+margin:0;	
+	animation: bg_color 100s infinite;
+position: absolute;
+z-index:0;
+}
+
+@keyframes bg_color {
+	0% { background-color: #090960; }
+	5% { background-color: #000030; }
+	15% { background-color: #a0d8ef; }
+	60% { background-color: #FAA755; }
+	70% { background-color: #B4554B; }
+	95% { background-color: #191970; }
+	100% { background-color: #090960; }
+}
+
+p.loadwh {
+
+	width: 100%;
+	height: 100%;
+margin:0;	
+	animation: loadwh_color 7s ease-in 0s 1 normal;
+position: absolute;
+z-index:16;
+}
+
+@keyframes loadwh_color {
+	0% { background-color: rgba(240,240,240,1); }
+	100% { background-color: rgba(200,200,200,0); }
+}
+
+
+
+
+
+
+img.elevated_trainanimebx1{
+animation: elevated_trainanimecx1 28s linear 3s  normal backwards;
+animation-iteration-count: infinite;
+position: absolute;
+bottom: 35%;
+height: 41px;
+z-index:2;
+left: 5000px; 
+}
+@keyframes elevated_trainanimecx1{
+0% {left: -3900px; bottom: 3px; }
+100% {left: 4100px; bottom: 3px; }
+}
+
+
+img.elevated_trainanimeby1{
+animation: elevated_trainanimecy1 28s linear 13s  normal backwards;
+animation-iteration-count: infinite;
+position: absolute;
+bottom: 35%;
+height: 41px;
+z-index:3;
+left: -4100px; 
+}
+@keyframes elevated_trainanimecy1{
+0% {left:  4100px; bottom: 3px; }
+100% {left: -3900px; bottom: 3px; }
+}
+
