@@ -1,3 +1,7 @@
+---
+layout: default
+title: もぷるん(mopurun)のブログの歴史
+---
 
 <h2>もぷるん(mopurun)のブログの歴史</h2>
 
