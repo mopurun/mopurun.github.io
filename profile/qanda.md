@@ -103,7 +103,7 @@ CH347基板です。I2Cの部品をPCから簡単に制御できるのでよく�
 
 PICマイコン(PIC16F84A)です。
 
-![img-c](../image/pic/img1.jpg)
+![img-c](../image/pic/img2.jpg)
 
 ↑PIC16F84A
 
