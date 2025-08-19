@@ -85,7 +85,31 @@
     pre {
       width:100%;
       }
+
+    img.nazo{
+animation: nazo_ani 3s ease-in-out infinite;
+
+
+
+}
+@keyframes nazo_ani {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translate(0,-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+    
 </style>
+
+
+
   
 </head>
 <body style="background-color:#fff7f0;font-family: 'Segoe UI', sans-serif;">
@@ -187,7 +211,7 @@
     </center>
 
 <section style="text-align:right;">
-  <img src="./image/nazo1.png">
+  <img src="./image/nazo1.png" class="nazo">
 </section>
   
 <section>
